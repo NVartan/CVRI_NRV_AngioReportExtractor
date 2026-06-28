@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report>
+  <Version AppName="3mensio Structural Heart" AppMajor="10.6" AppMinor="6110.94">10.6.6110.94</Version>
+  <Models>
+    <StudyInfo>
+      <StudyDescription></StudyDescription>
+      <StudyId>Early Prime</StudyId>
+      <StudyDate>10/29/2024 10:35 AM</StudyDate>
+      <AccessionNumber>R59NC0K1HC</AccessionNumber>
+      <ReferringPhysician></ReferringPhysician>
+      <PatientName>‏000-EAP-011 _ TAVI Procedure_Angiography 1‎</PatientName>
+      <PatientId>000-EAP-011 _ TAVI Procedure_TAVI Procedure_Angiography 1</PatientId>
+      <PatientSex></PatientSex>
+      <PatientBirthDate></PatientBirthDate>
+    </StudyInfo>
+    <PatientInformation>
+      <Fields>
+        <PatientName Type="String">‏000-TBC-011‎</PatientName>
+        <PatientSex Type="String"></PatientSex>
+        <PatientYearOfBirth Type="String"></PatientYearOfBirth>
+      </Fields>
+      <ReportOptions />
+    </PatientInformation>
+  </Models>
+  <Sections>
+    <ReportDetails IsVisible="true">
+      <Fields>
+        <Physician Type="String"></Physician>
+      </Fields>
+    </ReportDetails>
+  </Sections>
+  <Measurements />
+  <Custom>
+    <Measurements>
+      <Measurement Id="ProsthesisWaistWidth" ReportId="Coronary" Workflow="PresentationXA" Label="Prosthesis Waist Width" IsCustom="true">
+        <ReportableValue Type="Float" Id="Distance" Label="Distance" Prefix="" Value="22.604052" Unit="Millimeter" Denominator="Empty" Precision="1" />
+      </Measurement>
+      <Measurement Id="InflowWidth" ReportId="Coronary" Workflow="PresentationXA" Label="Inflow Width" IsCustom="true">
+        <ReportableValue Type="Float" Id="Distance" Label="Distance" Prefix="" Value="23.964699" Unit="Millimeter" Denominator="Empty" Precision="1" />
+      </Measurement>
+      <Measurement Id="NCS" ReportId="Coronary" Workflow="PresentationXA" Label="NCS" IsCustom="true">
+        <ReportableValue Type="Float" Id="Distance" Label="Distance" Prefix="" Value="0.7410067" Unit="Millimeter" Denominator="Empty" Precision="1" />
+      </Measurement>
+      <Measurement Id="LCS" ReportId="Coronary" Workflow="PresentationXA" Label="LCS" IsCustom="true">
+        <ReportableValue Type="Float" Id="Distance" Label="Distance" Prefix="" Value="6.452783" Unit="Millimeter" Denominator="Empty" Precision="1" />
+      </Measurement>
+    </Measurements>
+    <ReportOptions>
+      <ReportOption Label="Analyst Name" Value="MY" Workflow="PresentationXA" />
+      <ReportOption Label="THV size" Value="25" Workflow="PresentationXA" />
+      <ReportOption Label="Visit Type" Value="2nd" Workflow="PresentationXA" />
+      <ReportOption Label="Balloon PostDil Timing" Value="AfterPostDil" Workflow="PresentationXA" />
+      <ReportOption Label="Analysability(Stent Geometry)" Value="Analysable" Workflow="PresentationXA" />
+      <ReportOption Label="Analysability(Depth Implantation)" Value="Analysable" Workflow="PresentationXA" />
+      <ReportOption Label="Frame of analysis" Value="10" Workflow="PresentationXA" />
+      <ReportOption Label="LAO/RAO" Value="RAO" Workflow="PresentationXA" />
+      <ReportOption Label="CAU/CRA" Value="CAU" Workflow="PresentationXA" />
+      <ReportOption Label="LAO/RAO Angle" Value="30" Workflow="PresentationXA" />
+      <ReportOption Label="CAU/CRA Angle" Value="18" Workflow="PresentationXA" />
+      <ReportOption Label="Crossover" Value="N/A" Workflow="PresentationXA" />
+      <ReportOption Label="Post Orientation" Value="(2:1)" Workflow="PresentationXA" />
+      <ReportOption Label="Middle Post Orientation" Value="Higher" Workflow="PresentationXA" />
+    </ReportOptions>
+  </Custom>
+  <CustomFields />
+</Report>

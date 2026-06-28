@@ -1,0 +1,1 @@
+#TODO check qt6 compatibility with windows/mac/linux for xos functionality
