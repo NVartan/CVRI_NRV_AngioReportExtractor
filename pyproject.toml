@@ -1,9 +1,20 @@
 [project]
 name = "extractor"
 version = "0.1.0"
-description = "Add your description here"
+description = "Extracts data from exported reports into specifically formatted csv file for further analysis"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "dotenv>=0.9.9",
 ]
+
+[project.scripts]
+extractor = "main:main"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["modules"]
+py-modules = ["main"]

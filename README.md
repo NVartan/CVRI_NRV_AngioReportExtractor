@@ -4,16 +4,15 @@ Extracts data from exported reports into specifically formatted csv file for fur
 python >= 3.13
 dotenv>=0.9.9
 
+# Setup and Use
+1. Open a terminal and navigate to this directory via `cd path/to/directory`
+2. Run `pip3 install -e .` or equivalent command for package manager alternative (tested with pipx)
+3. Drop all data in `./Data` or set `DATADIR = /path/to/data` in .env
+4. Run using the command `extractor`
 
-# To Use
-1. Save all exported xml reports to a directory
-2. Set the directory path in the included .env file
-	`DATADIR = /path/to/data/dir`
-3. Double click the "Extract" application
 
 # Coming Soon
-- Ability to filter based on specific value ranges and fieldsß
-- Graphical interface for more user friendly operation
+- Ability to filter based on specific value ranges and fields
 
 # Ideas for expansion
 - Integration of analysis into the script

@@ -7,4 +7,30 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+venv/
+env/
+
+# uv
+uv.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# VSCodium
+.vscode/
+*.code-workspace
+
+# General Python run artifacts
+*.log
+*.egg
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
