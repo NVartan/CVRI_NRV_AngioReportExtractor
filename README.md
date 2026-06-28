@@ -13,14 +13,3 @@ dotenv>=0.9.9
 
 # Coming Soon
 - Ability to filter based on specific value ranges and fields
-
-# Ideas for expansion
-- Integration of analysis into the script
-	- pro: one and done approach, less error prone during transfer through formats
-	- con: excel file already has calculations set up, these would need to be recreated
-- Automated measurements provided only the image files
-	- pro: faster large scale processing with less manpower
-	- con: time needed for development and testing, computationally more involved, likely still needs human oversight
-- Extension into a predictive model via regression which takes provided values and returns likely result based on training set (data currently being analyzed)
-	- pro: clinical value as pre-op tool
-	- con: time needed for development and testing. Definitely a long term project.
