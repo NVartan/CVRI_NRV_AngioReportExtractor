@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report>
+  <Version AppName="3mensio Structural Heart" AppMajor="10.6" AppMinor="6110.94">10.6.6110.94</Version>
+  <Models>
+    <StudyInfo>
+      <StudyDescription></StudyDescription>
+      <StudyId>Early Prime</StudyId>
+      <StudyDate>2/10/2025 11:17 AM</StudyDate>
+      <AccessionNumber>RI12F0K1KK</AccessionNumber>
+      <ReferringPhysician></ReferringPhysician>
+      <PatientName>‏888-EAP-126 _ TAVI Procedure_Angiography 1‎</PatientName>
+      <PatientId>888-EAP-126 _ TAVI Procedure_TAVI Procedure_Angiography 1</PatientId>
+      <PatientSex></PatientSex>
+      <PatientBirthDate></PatientBirthDate>
+    </StudyInfo>
+    <PatientInformation>
+      <Fields>
+        <PatientName Type="String">‏888-EAP-126‎</PatientName>
+        <PatientSex Type="String"></PatientSex>
+        <PatientYearOfBirth Type="String"></PatientYearOfBirth>
+      </Fields>
+      <ReportOptions />
+    </PatientInformation>
+    <AorticValve>
+      <Fields />
+      <ReportOptions />
+    </AorticValve>
+    <Femoral>
+      <Fields />
+      <ReportOptions />
+    </Femoral>
+    <Subclavian>
+      <Fields />
+      <ReportOptions />
+    </Subclavian>
+    <Carotids>
+      <Fields />
+      <ReportOptions />
+    </Carotids>
+  </Models>
+  <Sections>
+    <ReportDetails IsVisible="true">
+      <Fields>
+        <Physician Type="String"></Physician>
+      </Fields>
+    </ReportDetails>
+  </Sections>
+  <Measurements />
+  <Custom>
+    <Measurements>
+      <Measurement Id="ProsthesisWaistWidth" ReportId="AorticValve" Workflow="PresentationXA" Label="Prosthesis Waist Width" IsCustom="true">
+        <ReportableValue Type="Float" Id="Distance" Label="Distance" Prefix="" Value="24.87505" Unit="Millimeter" Denominator="Empty" Precision="1" />
+      </Measurement>
+      <Measurement Id="InflowWidth" ReportId="AorticValve" Workflow="PresentationXA" Label="Inflow Width" IsCustom="true">
+        <ReportableValue Type="Float" Id="Distance" Label="Distance" Prefix="" Value="27.454748" Unit="Millimeter" Denominator="Empty" Precision="1" />
+      </Measurement>
+    </Measurements>
+    <ReportOptions>
+      <ReportOption Label="Analyst Name" Value="MY" Workflow="PresentationXA" />
+      <ReportOption Label="THV size" Value="29" Workflow="PresentationXA" />
+      <ReportOption Label="Visit Type" Value="Implatation View" Workflow="PresentationXA" />
+      <ReportOption Label="Balloon PostDil Timing" Value="BeforePostDil" Workflow="PresentationXA" />
+      <ReportOption Label="Analysability(Stent Geometry)" Value="Analysable" Workflow="PresentationXA" />
+      <ReportOption Label="Analysability(Depth Implantation)" Value="Not Analysable" Workflow="PresentationXA" />
+      <ReportOption Label="Frame of analysis" Value="3" Workflow="PresentationXA" />
+      <ReportOption Label="LAO/RAO" Value="LAO" Workflow="PresentationXA" />
+      <ReportOption Label="CAU/CRA" Value="CAU" Workflow="PresentationXA" />
+      <ReportOption Label="LAO/RAO Angle" Value="15" Workflow="PresentationXA" />
+      <ReportOption Label="CAU/CRA Angle" Value="8" Workflow="PresentationXA" />
+      <ReportOption Label="Crossover" Value="No" Workflow="PresentationXA" />
+      <ReportOption Label="Post Orientation" Value="(1:1:1)" Workflow="PresentationXA" />
+      <ReportOption Label="Middle Post Orientation" Value="Lower" Workflow="PresentationXA" />
+    </ReportOptions>
+  </Custom>
+  <CustomFields />
+</Report>
