@@ -11,5 +11,5 @@ dotenv>=0.9.9
 4. Run using the command `extractor`
 
 
-# Coming Soon
-- Ability to filter based on specific value ranges and fields
+# Notice
+Use of this tool implies agreement with its terms of use
